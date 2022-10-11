@@ -27,6 +27,12 @@ header nav ul li{
     /* text-decoration: underline; */
 }
 
+#bgoffer{
+    left: -35px;
+    position: relative;
+    top: -406px;
+}
+
 #granthams{
     margin-left: 25px;
     margin-top: 25px;
@@ -56,12 +62,63 @@ header nav ul li{
     width: 30%;
 }
 
-.colorrosa{ /* todas las clases empiezan por punto */
+#secc01art02 ul{
+    list-style: none; /* desaparecemos los circulos negros de la lista */
+    margin-left: -40px;
+}
+
+#secc01art02 ul li:before{ /* before lo pone antes de */
+    content: "• ";
     color: #FF0099;
+}
+
+#secc03art04{
+    /* border: 1px solid red; */
+    /* padding-top: 40px; */
+    margin-top: 40px;
+}
+
+#secc03art04 input{
+    border-radius: 15px;
+}
+
+#segundaSeccion{
+    margin-top: 15px;
+}
+
+#segundaSeccion article{
+    margin-right: 165px;
+    text-align: right;
+}
+
+#terceraSeccion article{
+    display: inline-block; /* los pone acostados */
+    vertical-align: top; /* pega hacia arriba todo el contenido*/
+    width: 23%;
+}
+
+#terceraSeccion article img{
+    vertical-align: middle; /* alinea el texto a la mitad de la imagen */
+}
+
+.colorazul{  /* todas las clases empiezan por punto */
+    color: #4267B3;
+}
+
+.colorrosa{
+    color: #FF0099;
+}
+
+.colorverde{
+    color: #8BC500;
 }
 
 .letragrande{
     font-size: 3.5em;
+}
+
+.letramediana{
+    font-size: 2em;
 }
 
 .nito{
